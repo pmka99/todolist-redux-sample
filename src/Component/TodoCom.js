@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { delette ,doneSet, workSet} from "../Store/Slices/SliceReducer";
 import axios from "axios";
 
+// show every task of todolist with some option(delete,edit , donechange)
 function TodoCom({item}){
     const dispath=useDispatch();
     const[text,textSet]=useState('');

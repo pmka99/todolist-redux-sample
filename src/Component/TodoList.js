@@ -5,7 +5,7 @@ import '../styles/app.css'
 import axios from "axios";
 import { setTodo } from "../Store/Slices/SliceReducer";
 
-
+// show all tasks of todolis
 function TodoList(){
     const dispath=useDispatch()
 
